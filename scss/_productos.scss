@@ -1,0 +1,30 @@
+/* Productos */
+
+.tituloProductos {
+    background-color: rgb(141, 195, 195);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-body {
+    background-color: rgb(237, 228, 247);
+}
+
+.card img {
+    height: fit-content;
+}
+
+.btnCont {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    background-color: rgb(144, 202, 183);
+    color: white;
+    border-radius: 4px;
+}
+
+.card {
+    gap: 15px;
+    margin: 15px;
+}

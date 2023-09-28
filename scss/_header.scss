@@ -1,0 +1,29 @@
+
+@mixin links {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+.miFondo {
+    background-color: rgb(136, 138, 138);
+}
+
+.miLink {
+    a {
+        @include links
+    }
+
+    &:hover {
+        background-color: rgb(74, 87, 82);
+        color: white;
+    }
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}

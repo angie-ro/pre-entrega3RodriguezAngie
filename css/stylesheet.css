@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  font-family: "Roboto", sans-serif;
+}
+
+body li {
+  font-size: 25px;
+}
+
+.miFondo {
+  background-color: rgb(136, 138, 138);
+}
+
+.miLink a {
+  text-decoration: none;
+  color: black;
+}
+.miLink:hover {
+  background-color: rgb(74, 87, 82);
+  color: white;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+/* Productos */
+.tituloProductos {
+  background-color: rgb(141, 195, 195);
+  color: rgb(253, 253, 253);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-body {
+  background-color: rgb(237, 228, 247);
+}
+
+.card img {
+  height: fit-content;
+}
+
+.btnCont {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  background-color: rgb(144, 202, 183);
+  color: white;
+  border-radius: 4px;
+}
+
+.card {
+  gap: 15px;
+  margin: 15px;
+}
+
+/* Contacto */
+.mb-3 {
+  padding: 25px;
+  display: grid;
+  font-size: 25px;
+}
+.mb-3 input, .mb-3 textarea {
+  font-size: 25px;
+}
+
+.form {
+  background-color: rgb(237, 228, 247);
+  display: flexbox;
+  margin: 40px;
+  border-radius: 6px;
+}
+
+.btnContacto button {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin-left: 28px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+  background-color: rgb(171, 177, 177);
+}
+.btnContacto button a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 30px;
+  /* Por qué no se aplica? */
+  text-align: center;
+}
+.btnContacto button a:hover {
+  color: white;
+}
+
+.mapContainer {
+  font-size: 20px;
+  font-family: "Inclusive Sans", sans-serif;
+  padding: 15px;
+  padding: 20px;
+}
+
+.tituloIcon {
+  display: flex;
+  gap: 10px;
+}
+
+.map {
+  padding: 10px;
+}
+
+/* Footer */
+.derechos h3 {
+  margin: 20px;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+.rrss {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.rrss img {
+  width: 100px;
+  height: 100px;
+}
+
+.separadorFooter img {
+  height: 50px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
